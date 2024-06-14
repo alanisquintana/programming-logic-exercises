@@ -5,13 +5,13 @@ const userBalance = Number(prompt("What is your bank balance?"))
 const purchaseValue = Number(prompt("What is the purchase value?"))
 
 if (userBalance < purchaseValue) {
-    console.log('PURCHASE DENIED!');
+    console.log('PURCHASE DENIED!')
     console.log("There is not enough balance.")
 } else {
     const currentBalance = balanceUpdater(userBalance, purchaseValue).toLocaleString('en-US', {style:'currency', currency:'USD'})
 
-    console.log('PURCHASE APPROVED!');
-    console.log(`Your current balance is ${currentBalance}.`);
+    console.log('PURCHASE APPROVED!')
+    console.log(`Your current balance is ${currentBalance}.`)
 }
 
 function balanceUpdater(bankBalance, purchaseValue) {

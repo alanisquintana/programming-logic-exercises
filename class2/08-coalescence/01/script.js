@@ -7,4 +7,4 @@ const userBookQuantityInput = Number(prompt("How many books do you want to buy?"
 const defaultValue = 1
 const userBookQuantity = userBookQuantityInput ?? defaultValue
 
-console.log(userBookQuantity);
+console.log(userBookQuantity)
