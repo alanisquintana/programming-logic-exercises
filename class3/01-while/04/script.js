@@ -17,7 +17,7 @@ do {
     }
 
     if (isPrime) {
-        console.log(number);
+        console.log(number)
     }
 
     number++

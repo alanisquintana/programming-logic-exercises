@@ -14,7 +14,7 @@ for (let i = 1; i <= 20; i++) {
     }
 
     if (isPrime) {
-        console.log(number);
+        console.log(number)
     }
 
     number++

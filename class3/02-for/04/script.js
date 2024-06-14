@@ -9,4 +9,4 @@ for (const value of transactions) {
     sum += value
 }
 
-console.log(sum);
+console.log(sum)
