@@ -8,11 +8,15 @@ Inside the function, check if the number is prime. If it is, return true; otherw
 const number = Number(prompt("Write a number between 1 and 10."))
 
 function isPrime(number) {
-    if (number % 2 === 0) {
-        return false
-    } else {
-        return true
+    let isPrime = true
+
+    for (let i = 2; i < number; i++) {
+        if (number % i === 0) {
+            isPrime = false
+            break
+        }
     }
+    return isPrime
 }
 
-console.log(isPrime(number));
+console.log(isPrime(number))
